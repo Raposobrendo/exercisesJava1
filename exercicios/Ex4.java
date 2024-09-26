@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ex4 {
 	public static void main(String[] Args) {
-			Ex4.ex3();
+			Ex4.ex7();
 	}
 	
 	public static void ex1() {
@@ -27,7 +27,7 @@ public class Ex4 {
 		int lim, in = 0, out = 0, num;
 		
 		
-		System.out.println("Digite uma quantidade de números a inserir, mostraremos quantos estão entre 10 e 20");
+		System.out.println("Digite uma quantidade de números a inserir, mostraremos quantos estão entre 10 e 20: ");
 		lim = sc2.nextInt();
 		
 		for(int i = 0; i < lim; i++) {
@@ -66,5 +66,79 @@ public class Ex4 {
 		}
 		
 		sc3.close();
+	}
+	
+	public static void ex4() {
+		Scanner sc4 =  new Scanner(System.in);
+		
+		int nums;		
+		double num1, num2, divi;
+		
+		System.out.println("Digite a quantidade de vezes que deseja realizar uma divisão: ");
+		nums = sc4.nextInt();
+		
+		for(int i = 0; i < nums; i++) {
+			System.out.println("Digite os dois números para a divisão: ");
+			num1 = sc4.nextInt();
+			num2 = sc4.nextInt();
+			if(num2 == 0) {
+				System.out.println("Divisão impossível");
+			}
+			else {
+				divi = num1/num2;
+				System.out.printf("Resutado: %.2f", divi);
+			}
+		}
+		
+		sc4.close();
+	}
+	
+	public static void ex5() {
+		Scanner sc5 = new Scanner(System.in);
+		
+		int num = 1, rep;
+		
+		System.out.println("Digite um número para mostrarmos seu fatorial: ");
+		rep = sc5.nextInt();
+		
+		for(int i = rep; i > 1; i--){
+			num *= i;			
+		}
+		
+		System.out.println(num);
+		sc5.close();
+	}
+	
+	public static void ex6() {
+		Scanner sc6 = new Scanner(System.in);
+		double num;
+		
+		System.out.println("Digite um número e mostraremos todos seus divisores: ");
+		num = sc6.nextDouble();
+		
+		for (int i = 0; i <= num; i++) {
+			if(num % i == 0){
+				System.out.println(i);
+			}
+		}
+		
+		sc6.close();
+	}
+	
+	public static void ex7() {
+		Scanner sc7 = new Scanner(System.in);
+		
+		int num, num1, num2, num3;
+		System.out.println("Digite um número e mostraremos o quadrado e o cubo desse valor: ");		
+		num = sc7.nextInt();
+		
+		for(int i = 1; i <= num; i++) {
+			num1 = i;
+			num2 = i * i;
+			num3 = num2 * i;
+			System.out.printf("%d - %d - %d\n", num1, num2, num3);
+		}
+		
+		sc7.close();
 	}
 }
