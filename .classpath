@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="initialExercises"/>
 	<classpathentry kind="src" path="oopExercises"/>
+	<classpathentry kind="src" path="constThisOverEncapExercises"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
