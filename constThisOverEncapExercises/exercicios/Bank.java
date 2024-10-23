@@ -51,7 +51,11 @@ public class Bank {
 		
 		System.out.print("Enter a withdraw value: ");
 		valueChange = sc.nextDouble();
-		client.withdrawValue(valueChange);
+		if(valueChange > 0) {
+			client.withdrawValue(valueChange);
+		}
+		else {			
+		}
 		System.out.print("Updated account data: \n" + client + "\n");
 		
 		

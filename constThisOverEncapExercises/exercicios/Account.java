@@ -36,7 +36,7 @@ public class Account {
 	}
 	
 	public void withdrawValue(double withdraw) {
-		balance -= withdraw;
+		balance -= withdraw + 5;
 	}
 	
 	public String toString() {
