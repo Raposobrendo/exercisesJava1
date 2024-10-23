@@ -1,7 +1,7 @@
 package exercicios;
 
 public class Account {
-	private int account;
+	private final int account;
 	private String holder;
 	private double balance;
 	
@@ -14,6 +14,17 @@ public class Account {
 	public Account(int account, String holder) {
 		this.account = account;
 		this.holder = holder;
+	}
+	
+	public void setHolder(String holder) {
+		this.holder = holder;
+	}
+	
+	public double getBalance(){
+		return balance;
+	}
+	public String getHolder(String holder) {
+		return holder;
 	}
 	
 	public void initialDeposit(double deposit) {
