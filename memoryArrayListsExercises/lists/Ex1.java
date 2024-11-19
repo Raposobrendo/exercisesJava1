@@ -6,7 +6,6 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import listEntities.Employee;
-import listEntities.Enterprise;
 
 
 public class Ex1 {
