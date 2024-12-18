@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="oopExercises"/>
 	<classpathentry kind="src" path="constThisOverEncapExercises"/>
 	<classpathentry kind="src" path="memoryArrayListsExercises"/>
+	<classpathentry kind="src" path="enumerationComposition"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
