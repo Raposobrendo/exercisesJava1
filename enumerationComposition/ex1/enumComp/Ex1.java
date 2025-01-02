@@ -1,15 +1,10 @@
-package list1.enumComp;
+package ex1.enumComp;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
-
-import entities.enumComp.Department;
-import entities.enumComp.HourContract;
-import entities.enumComp.Worker;
-import entities.enums.WorkerLevel;
 
 public class Ex1 {
 	public static void main(String[] Args) throws ParseException {

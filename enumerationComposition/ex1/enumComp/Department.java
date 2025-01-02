@@ -1,4 +1,4 @@
-package entities.enumComp;
+package ex1.enumComp;
 
 public class Department {
 	private String name;

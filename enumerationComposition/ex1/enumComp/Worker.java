@@ -1,10 +1,8 @@
-package entities.enumComp;
+package ex1.enumComp;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
-
-import entities.enums.WorkerLevel;
 
 public class Worker {
 
